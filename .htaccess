@@ -1,0 +1,4 @@
+Options +FollowSymLinks -Indexes -MultiViews  
+RewriteEngine on  
+ 
+RewriteRule ^([\w\d]{4})$ /URL_Shotner_2/url_extract.php?decode=$1 [L]
