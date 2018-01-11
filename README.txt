@@ -10,4 +10,5 @@ Please follow the following points to install the project on your local .
 #6. Open .htaccess file and edit the following :-
 	RewriteRule ^([\w\d]{4})$ /[ENTER FOLDER NAME]/url_extract.php?decode=$1 [L]
 #7. Run localhost\[ENTER FOLDER NAME]\	
+#8. Once you get the shortned url , please copy paste the link on address bar then you will be redirected to the original link.
 
